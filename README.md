@@ -2,9 +2,9 @@
 一个高精度无人机检测模型（mAP@0.5达到约96%，mAP@0.5:0.95约74%），基于YOLO11L训练，[博客地址](https://2am.top/2025/03/23/%E5%9F%BA%E4%BA%8EYOLO11%E7%9A%84%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/)<br>
 ## 下载
 使用请下载完整的`.pt`文件<br>
-下载文件请参见[release](https://github.com/forever218/YOLO-Drone-Detection/releases/tag/drone)界面。<br>
-[谷歌网盘下载链接](https://drive.google.com/file/d/1ejpxbT4rnFkPcWVy7T8yH3VkJWTF2rWQ/view?usp=sharing)<br>
-[onedrive下载链接](https://7llb7h-my.sharepoint.com/:u:/g/personal/lisiran_7llb7h_onmicrosoft_com/EZi5fRvC49pLkasMzN_syMgB6psGl2b2uVRtxhWtZQ-m3A?e=ZSOleg)<br>
+下载文件请参见[release](https://github.com/forever218/YOLO-Drone-Detection/releases/tag/drone)界面，或使用网盘下载：<br>
+[谷歌网盘下载链接](https://drive.google.com/file/d/1ejpxbT4rnFkPcWVy7T8yH3VkJWTF2rWQ/view?usp=sharing)（备用1）<br>
+[onedrive下载链接](https://7llb7h-my.sharepoint.com/:u:/g/personal/lisiran_7llb7h_onmicrosoft_com/EZi5fRvC49pLkasMzN_syMgB6psGl2b2uVRtxhWtZQ-m3A?e=ZSOleg)（备用2）<br>
 ## 使用
 确保已经安装了ultralytics及其相关环境：
 ```cmd
