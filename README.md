@@ -68,4 +68,11 @@ IRQ: 未使用
 另：对输出结果文件`result.csv`的可视化分析如下
 ![image](https://github.com/user-attachments/assets/f3390e0e-5080-4767-bc9a-4994006f92a4)
 
+## 参考
+🔗[我的博客](https://2am.top/2025/03/23/%E5%9F%BA%E4%BA%8EYOLO11%E7%9A%84%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/)<br>
+🎨[公开数据集](https://universe.roboflow.com/uavs-7l7kv/uavs-vqpqt)<br>
+⚒️[ultralytics官网](https://docs.ultralytics.com/zh/quickstart/)<br>
+🚗[coco数据集](https://cocodataset.org/#home)
 
+## LICENSE
+🔒[AGPL-3.0](https://github.com/forever218/YOLO-Drone-Detection?tab=AGPL-3.0-1-ov-file#readme)
