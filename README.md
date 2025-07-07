@@ -1,12 +1,12 @@
 # YOLO-Drone-Detection
-一个高精度无人机检测模型（mAP@0.5达到约96%，mAP@0.5:0.95约74%），基于YOLO11L训练，[博客地址](https://2am.top/2025/03/23/%E5%9F%BA%E4%BA%8EYOLO11%E7%9A%84%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/)<br>
+一个高精度无人机检测模型（mAP@0.5达到约96%，mAP@0.5:0.95约74%），基于YOLO11L训练，导出为pytorch格式，[博客地址](https://2am.top/2025/03/23/%E5%9F%BA%E4%BA%8EYOLO11%E7%9A%84%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/)<br>
 ## 下载
 使用请下载完整的`.pt`文件<br>
 下载文件请参见[release](https://github.com/forever218/YOLO-Drone-Detection/releases/tag/drone)界面，或使用网盘下载：<br>
 [谷歌网盘下载链接](https://drive.google.com/file/d/1ejpxbT4rnFkPcWVy7T8yH3VkJWTF2rWQ/view?usp=sharing)（备用1）<br>
 [onedrive下载链接](https://7llb7h-my.sharepoint.com/:u:/g/personal/lisiran_7llb7h_onmicrosoft_com/EZi5fRvC49pLkasMzN_syMgB6psGl2b2uVRtxhWtZQ-m3A?e=ZSOleg)（备用2）<br>
 ## 使用
-确保已经安装了ultralytics及其相关环境：
+确保已经安装了ultralytics，pytorch（最好带显卡加速支持的版本）及其相关环境：
 ```cmd
 pip install ultralytics
 ```
@@ -25,10 +25,10 @@ pip install ultralytics
         self.confidence_threshold = confidence_threshold
         self.cap = None
 ```
-一个完整的应用程序实例参见文件`drone_detection.py`，默认情况下，请将该`py`文件与`pt`文件放在同一个目录里（如果您未修改`py`中模型地址的话）。
-<img width="478" alt="06dc1f4272654951d184430433779c4" src="https://github.com/user-attachments/assets/82bb4046-7334-47e6-9656-fdeeac2e8da8" />
-<img width="478" alt="382f66c7ae8e37ce50046f69d764719" src="https://github.com/user-attachments/assets/06178307-aaa2-4f56-b844-46b0779c6e02" />
-<img width="478" alt="5c0e0175cdf3a9a0c97fa465cf12b68" src="https://github.com/user-attachments/assets/65fb73fb-e43b-40c2-ad3a-6e5f157e211e" />
+一个完整的应用程序实例参见文件`drone_detection.py`，默认情况下，请将该`py`文件与`pt`文件放在同一个目录里（如果您未修改`py`中模型地址的话）。<br>
+<img width="478" alt="06dc1f4272654951d184430433779c4" src="https://github.com/user-attachments/assets/82bb4046-7334-47e6-9656-fdeeac2e8da8" /><br>
+<img width="478" alt="382f66c7ae8e37ce50046f69d764719" src="https://github.com/user-attachments/assets/06178307-aaa2-4f56-b844-46b0779c6e02" /><br>
+<img width="478" alt="5c0e0175cdf3a9a0c97fa465cf12b68" src="https://github.com/user-attachments/assets/65fb73fb-e43b-40c2-ad3a-6e5f157e211e" /><br>
 说明：在光照充足的条件下，模型推理的速度和质量有显著提升。
 
 ## 训练参数
