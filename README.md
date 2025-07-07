@@ -26,6 +26,11 @@ pip install ultralytics
         self.cap = None
 ```
 一个完整的应用程序实例参见文件`drone_detection.py`，默认情况下，请将该`py`文件与`pt`文件放在同一个目录里（如果您未修改`py`中模型地址的话）。
+<img width="478" alt="06dc1f4272654951d184430433779c4" src="https://github.com/user-attachments/assets/82bb4046-7334-47e6-9656-fdeeac2e8da8" />
+<img width="478" alt="382f66c7ae8e37ce50046f69d764719" src="https://github.com/user-attachments/assets/06178307-aaa2-4f56-b844-46b0779c6e02" />
+<img width="478" alt="5c0e0175cdf3a9a0c97fa465cf12b68" src="https://github.com/user-attachments/assets/65fb73fb-e43b-40c2-ad3a-6e5f157e211e" />
+说明：在光照充足的条件下，模型推理的速度和质量有显著提升。
+
 ## 训练参数
 请参见文件`args.yaml`。该文件在训练完成后，会自动保存在训练目录下，里面记录了训练的全部参数。
 ## 数据集
